@@ -1,0 +1,21 @@
+{
+  "name": "streams-clusters-worker-threads-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abulkosim/streams-clusters-worker-threads-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abulkosim/streams-clusters-worker-threads-node/issues"
+  },
+  "homepage": "https://github.com/Abulkosim/streams-clusters-worker-threads-node#readme",
+  "description": ""
+}
