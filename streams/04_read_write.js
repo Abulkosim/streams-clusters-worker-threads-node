@@ -20,3 +20,19 @@ readStream.on('error', (err) => {
     console.log('error', err); 
 }); 
 
+const writeStream = fs.createWriteStream('../output.txt');
+
+writeStream.write('Hello, world!\n');
+writeStream.write('Writing some more data...');
+writeStream.end(); 
+
+writeStream.on('finish', () => {
+  console.log('Finished writing to file.');
+});
+
+writeStream.on('error', (err) => {
+  console.error('Error writing to file:', err);
+});
+
+// piping
+readStream.pipe(writeStream); 
